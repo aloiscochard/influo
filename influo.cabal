@@ -19,4 +19,5 @@ executable influo
                         -- -fllvm
   ghc-options:         -O2 -threaded -fwarn-incomplete-patterns
   default-extensions:  DeriveDataTypeable, ExistentialQuantification, FlexibleContexts, NoMonomorphismRestriction, TypeFamilies, ScopedTypeVariables
-  build-depends:       base >=4.6 && <4.7, async, bytestring, containers, criterion, HTTP, monad-loops, monoid-statistics, monoids, mwc-random, primitive, stm, transformers
+  build-depends:       base >=4.6 && <4.7, async, bytestring, containers, criterion, HTTP, monad-loops, monoid-statistics, mwc-random, primitive, reducers, semigroups, stm, transformers
+

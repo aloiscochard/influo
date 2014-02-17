@@ -9,8 +9,8 @@ import Criterion.Main
 import Criterion.Measurement
 import Data.Map (Map)
 import Data.Monoid
-import Data.Monoid.Ord
 import Data.Monoid.Statistics.Numeric hiding (Min, Max)
+import Data.Semigroup
 import Network.HTTP
 import System.Random.MWC
 
